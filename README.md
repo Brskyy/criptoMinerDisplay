@@ -2,6 +2,10 @@
 
 Painel web com visual cyberpunk para acompanhar um ESP32 sem display durante a mineração solo de Bitcoin. Este fork usa como base o [NerdMiner v2](https://github.com/BitMaker-hub/NerdMiner_v2) e acrescenta uma interface web pensada para placas sem tela.
 
+## Por que uma interface web?
+
+Começamos este projeto porque a nossa **ESP32 DevKit V1 com módulo ESP-WROOM-32U não tem tela**. Queríamos acompanhar a mineração e as estatísticas sem comprar ou conectar um display separado. Por isso, criamos uma interface que o próprio ESP32 disponibiliza pela rede Wi-Fi e que pode ser aberta no navegador de um celular ou computador. Assim, o dispositivo continua compacto e o navegador funciona como a tela do minerador.
+
 > **Projeto educativo e experimental.** A mineração em um ESP32 funciona como uma loteria: não há retorno ou recompensa garantidos. Não compre ou use este projeto esperando lucro com mineração.
 
 ## O que o painel mostra
