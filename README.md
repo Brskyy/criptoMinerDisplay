@@ -19,7 +19,7 @@ O painel é servido pelo próprio ESP32 na rede Wi-Fi local. Os dados de mercado
 
 ## Capturas de tela
 
-As imagens mostram as telas de mineração e relógio do painel no navegador. Os endereços IP locais foram borrados; cotações e estatísticas de rede variam com o tempo.
+As imagens mostram as telas de mineração, relógio e estatísticas globais do painel no navegador. Os endereços IP locais foram borrados; cotações e estatísticas de rede variam com o tempo.
 
 ### Mineração
 
@@ -28,6 +28,10 @@ As imagens mostram as telas de mineração e relógio do painel no navegador. Os
 ### Relógio
 
 ![Tela do relógio com o endereço IP local borrado](images/dashboard-relogio.png)
+
+### Estatísticas globais
+
+![Tela de estatísticas globais com o endereço IP local borrado](images/dashboard-estatisticas-globais.png)
 
 ## Hardware e compatibilidade
 
