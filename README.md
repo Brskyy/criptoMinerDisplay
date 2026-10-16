@@ -17,6 +17,18 @@ Começamos este projeto porque a nossa **ESP32 DevKit V1 com módulo ESP-WROOM-3
 
 O painel é servido pelo próprio ESP32 na rede Wi-Fi local. Os dados de mercado e da rede são consultados pelo navegador na API pública do [mempool.space](https://mempool.space/docs/api/rest); para vê-los, o celular ou computador precisa ter acesso à internet. Se a API estiver indisponível, a mineração local continua, mas os dados externos podem ficar sem atualização.
 
+## Capturas de tela
+
+As imagens mostram as telas de mineração e relógio do painel no navegador. Os endereços IP locais foram borrados; cotações e estatísticas de rede variam com o tempo.
+
+### Mineração
+
+![Tela de mineração com os endereços IP locais borrados](images/dashboard-mineracao.png)
+
+### Relógio
+
+![Tela do relógio com o endereço IP local borrado](images/dashboard-relogio.png)
+
 ## Hardware e compatibilidade
 
 A configuração do painel web neste repositório foi compilada e gravada em uma **ESP32 DevKit V1 com módulo ESP-WROOM-32U**. O alvo correspondente no PlatformIO é `ESP32-devKitv1`.
