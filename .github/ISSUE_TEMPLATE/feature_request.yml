@@ -1,0 +1,25 @@
+name: Sugerir uma melhoria
+description: Sugira uma função ou melhoria para o Cripto Miner.
+title: "[Ideia]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Qual necessidade a melhoria atenderia?
+      description: Explique o problema ou a situação atual.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: O que você sugere?
+      description: Descreva a solução ou o comportamento esperado.
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Placa ou navegador relacionado
+      placeholder: ESP32 DevKit V1, Chrome no Android...
+    validations:
+      required: false

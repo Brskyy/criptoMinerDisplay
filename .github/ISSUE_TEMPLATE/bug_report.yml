@@ -1,0 +1,38 @@
+name: Relatar um problema
+description: Informe um erro no firmware, painel ou instruções.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: >
+        Não publique senhas, chaves privadas, frases de recuperação ou dados pessoais.
+        Remova endereços BTC e informações da rede dos logs antes de anexá-los.
+  - type: input
+    id: board
+    attributes:
+      label: Placa e módulo ESP32
+      placeholder: ESP32 DevKit V1 / ESP-WROOM-32U
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Ambiente
+      description: Sistema operacional, navegador e versão do PlatformIO, se relevantes.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Como reproduzir
+      description: Descreva os passos e o que esperava que acontecesse.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Mensagens de erro
+      description: Inclua apenas trechos relevantes e revise-os para remover dados pessoais.
+      render: text
+    validations:
+      required: false
